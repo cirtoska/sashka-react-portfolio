@@ -1,0 +1,179 @@
+{
+  "portfolio": [
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/iwec-final-react-project.webp",
+          "title": "IWEC Frontend Academy Final React Project",
+          "description": "React, Resoponsive, CSS3, REST API, Redux",
+          "liveUrl": "https://react-api-web-app.vercel.app/",
+          "githubUrl": "https://github.com/cirtoska/react-api-web-app"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/codecademy-Challenge-Project-Responsive-Club-Website.webp",
+          "title": "codecademy Challenge Project Responsive Club Website",
+          "description": "Responsive, HTML5, CSS3, UI/UX Design",
+          "liveUrl": "https://cirtoska.github.io/Challenge-Project---Responsive-Club-Website/",
+          "githubUrl": "https://github.com/cirtoska/Challenge-Project---Responsive-Club-Website"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/codecademy-Challenge-Project-Responsive-Flexbox-Bussiness-Site.webp",
+          "title": "codecademy Challenge Project Responsive Flexbox Bussiness Site",
+          "description": "Responsive, HTML5, CSS3, UI/UX Design",
+          "liveUrl": "https://cirtoska.github.io/Chalenge-Project-Flexbox-business-site/",
+          "githubUrl": "https://github.com/cirtoska/Chalenge-Project-Flexbox-business-site"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-build-random-quote-machine.webp",
+          "title": "freeCodeCamp Front End Development Libraries Projects - Build a Random Quote Machine",
+          "description": "React, CSS3, Responsive",
+          "liveUrl": "https://random-quote-machine-five.vercel.app/",
+          "githubUrl": "https://github.com/cirtoska/random-quote-machine"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-build-a-markdown-previewer.webp",
+          "title": "freeCodeCamp Front End Development Libraries Projects - Build a Markdown Previewer",
+          "description": "React, CSS3, Markdown, Responsive",
+          "liveUrl": "https://freecodecamp-build-a-markdown-previewer.vercel.app/",
+          "githubUrl": "https://github.com/cirtoska/freecodecamp-build-a-markdown-previewer"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-javascript-calculator.webp",
+          "title": "freeCodeCamp Front End Development Libraries Projects - Build a JavaScript Calculator",
+          "description": "React, CSS3, UX/UI Design",
+          "liveUrl": "https://free-code-camp-javascript-calculator-hoem.vercel.app/",
+          "githubUrl": "https://github.com/cirtoska/freeCodeCamp-javascript-calculator"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-build-a-pomodoro-clock.webp",
+          "title": "freeCodeCamp Front End Development Libraries Projects - Build a 25 + 5 Clock",
+          "description": "React, CSS3, UX/UI Design",
+          "liveUrl": "https://pomodoro-clock-ghsx.vercel.app/",
+          "githubUrl": "https://github.com/cirtoska/pomodoro-clock"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/the-cocktail-db.webp",
+          "title": "The Cocktail DB",
+          "description": "React, Responsive, UI/UX Design, CSS3, REST API",
+          "liveUrl": "https://the-cocktail-db-six.vercel.app/",
+          "githubUrl": "https://github.com/cirtoska/the-cocktail-db"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/github-users-react-app.webp",
+          "title": "Fetch Github Users with React",
+          "description": "React, Responsive, UI/UX Design, CSS3, REST API",
+          "liveUrl": "https://calm-melba-838062.netlify.app/",
+          "githubUrl": "https://github.com/cirtoska/github-users"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/best-books-2022.webp",
+          "title": "Best Books of 2022 with React",
+          "description": "React, Responsive, UI/UX Design, CSS3",
+          "liveUrl": "https://delightful-halva-6eb892.netlify.app/",
+          "githubUrl": "https://github.com/cirtoska/best-books-2022"
+      },
+      {
+        "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-survey-form-full.webp",
+        "title": "freeCodeCamp Survey Form Certification Project",
+        "description": "HTML5, Responsive, CSS3",
+        "liveUrl": "https://cirtoska.github.io/Buil-a-survey-form/",
+        "githubUrl": "https://github.com/cirtoska/Buil-a-survey-form"
+      },
+      {
+        "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-documentation-page.webp",
+        "title": "freeCodeCamp Documentation Page Certification Project",
+        "description": "HTML5, Responsive, CSS3",
+        "liveUrl": "https://cirtoska.github.io/Technical-Documentation-Page/",
+        "githubUrl": "https://github.com/cirtoska/Technical-Documentation-Page"
+      },
+      {
+        "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-tribute-page.webp",
+        "title": "freeCodeCamp Tribute Page Certification Project",
+        "description": "HTML5, Responsive, CSS3",
+        "liveUrl": "https://cirtoska.github.io/Tribute-Page/",
+        "githubUrl": "https://github.com/cirtoska/Tribute-Page"
+      },
+      {
+        "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-product-landing-page.webp",
+        "title": "freeCodeCamp Product Landing Page Certification Project",
+        "description": "HTML5, Responsive, CSS3",
+        "liveUrl": "https://cirtoska.github.io/Product-landing-page/",
+        "githubUrl": "https://github.com/cirtoska/Product-landing-page"
+      },
+      {
+        "cover": "https://aleksandrachirtoska.com/img/projects/freecodecamp-personal-portfolio.webp",
+        "title": "freeCodeCamp Personal Portfolio Certification Project",
+        "description": "HTML5, Responsive, CSS3",
+        "liveUrl": "https://free-code-camp-personal-portfolio.vercel.app/",
+        "githubUrl": "https://github.com/cirtoska/freeCodeCamp-Personal-Portfolio"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/modern-registration-form.webp",
+          "title": "IWEC Academy Project Modern Registration Form",
+          "description": "Responsive, UI/UX Design, CSS3, HTML5",
+          "liveUrl": "https://cirtoska.github.io/Modern-Registration-Form/",
+          "githubUrl": "https://github.com/cirtoska/Modern-Registration-Form"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/visual-studio-chalenge.webp",
+          "title": "IWEC Academy Visual Studio Project",
+          "description": "Responsive, CSS3, HTML5",
+          "liveUrl": "https://cirtoska.github.io/VS-Code-Project/",
+          "githubUrl": "https://github.com/cirtoska/VS-Code-Project"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/tnw-exercise.webp",
+          "title": "IWEC Academy TheNextWeb Project",
+          "description": "Responsive, CSS3, HTML5",
+          "liveUrl": "https://cirtoska.github.io/TheNextWeb/",
+          "githubUrl": "https://github.com/cirtoska/TheNextWeb"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/javascript-fetch-countries.webp",
+          "title": "Country Cards - Fetching Data with JS IWEC Academy exercise",
+          "description": "Responsive, CSS3, JavaScript",
+          "liveUrl": "https://cirtoska.github.io/Country-Cards/",
+          "githubUrl": "https://github.com/cirtoska/Country-Cards"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/javascript-fetch-products.webp",
+          "title": "Products Page - Fetching data with JS IWEC Academy exercise",
+          "description": "Responsive, CSS3, JavaScript",
+          "liveUrl": "https://cirtoska.github.io/Products/",
+          "githubUrl": "https://github.com/cirtoska/Products"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/javascript-fetch-users.webp",
+          "title": "Fetch Users with API JS exercise IWEC Academy",
+          "description": "Responsive, CSS3, JavaScript",
+          "liveUrl": "https://cirtoska.github.io/Add-User/",
+          "githubUrl": "https://github.com/cirtoska/Add-User"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/frontend-mentor-chalenge-card.webp",
+          "title": "Frontend Mentor - NFT preview card component solution",
+          "description": "Responsive, CSS3, HTML5",
+          "liveUrl": "https://cirtoska.github.io/nft-preview-card-component-main/",
+          "githubUrl": "https://github.com/cirtoska/nft-preview-card-component-main"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/frontend-mentor-chalenge-grid-chalenge.webp",
+          "title": "Frontend Mentor - Testimonials grid section solution",
+          "description": "Responsive, CSS3, HTML5",
+          "liveUrl": "https://cirtoska.github.io/testimonials-grid-section-main/",
+          "githubUrl": "https://github.com/cirtoska/testimonials-grid-section-main"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/frontend-mentor-chalenge-2.webp",
+          "title": "Frontend Mentor - Huddle landing page with curved sections solution",
+          "description": "Responsive, CSS3, HTML5",
+          "liveUrl": "https://cirtoska.github.io/huddle-landing-page-with-curved-sections-master/",
+          "githubUrl": "https://github.com/cirtoska/huddle-landing-page-with-curved-sections-master"
+      },
+      {
+          "cover": "https://aleksandrachirtoska.com/img/projects/frontend-mentor-chalenge3.webp",
+          "title": "Frontend Mentor - Fylo landing page with two column layout solution",
+          "description": "Responsive, CSS3, HTML5",
+          "liveUrl": "https://cirtoska.github.io/fylo-landing-page-with-two-column-layout-master/",
+          "githubUrl": "https://github.com/cirtoska/fylo-landing-page-with-two-column-layout-master"
+      }
+  ]
+}
