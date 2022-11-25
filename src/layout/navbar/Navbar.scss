@@ -1,0 +1,52 @@
+@import '../../App.scss';
+
+header {
+  margin:  0 0 2rem ;
+  
+  .nav-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      font-family: 'Comfortaa';
+      color: $dark-gray-clr;
+    }
+
+    .btn {
+      background-color: $light-clr;
+      margin: 2rem;
+      padding: 10px 30px;
+      font-size: 1.2rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.5s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        background-color: $purple-clr;
+        color: $light-clr;
+        transition: all 0.5s ease;
+    }
+  }
+
+    .btn-nav {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-direction: row-reverse;
+      font-weight: 500;
+
+      .icon {
+        font-size: 1.4rem;
+      }
+    }
+
+    .active {
+      background-color: $purple-clr !important;
+      color: $light-clr;
+    }
+  }
+}

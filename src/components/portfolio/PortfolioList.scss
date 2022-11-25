@@ -1,0 +1,84 @@
+@import '../../App.scss';
+
+.portfolio-box {
+  background-color: $light-clr;
+  border-radius: 20px;
+  padding: 2rem;
+   .title {
+    @include title;
+   }
+
+   .subtitle {
+    @include subtitle;
+  }
+
+  .list-projects {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+    .project-card.card-1,
+    .project-card.card-6,
+    .project-card.card-11,
+    .project-card.card-16,
+    .project-card.card-21 {
+      background-color: #fce1e4;
+    }
+    .project-card.card-2,
+    .project-card.card-7,
+    .project-card.card-12,
+    .project-card.card-17,
+    .project-card.card-22 {
+      background-color: #fcf4dd ;
+    }
+    .project-card.card-3,
+    .project-card.card-8,
+    .project-card.card-13,
+    .project-card.card-18,
+    .project-card.card-23 {
+      background-color: #ddedea ;
+    }
+    .project-card.card-4,
+    .project-card.card-9,
+    .project-card.card-14,
+    .project-card.card-19,
+    .project-card.card-24 {
+      background-color: #e8dff5 ;
+    }
+    .project-card.card-5,
+    .project-card.card-10,
+    .project-card.card-15,
+    .project-card.card-20,
+    .project-card.card-25 {
+      background-color: #daeaf6 ;
+    }
+    .project-card {
+      padding: 2rem;
+      max-width: 100%;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      gap: 2rem;
+      
+      .img-zoom {
+        height: 200px;
+        overflow: hidden;
+        border-radius: 20px;
+
+        img {
+          width: 100%;
+          display: block;
+          margin: 0 auto;
+          transition: transform .5s ease-in-out;
+      }
+        
+
+        &:hover img {
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+}

@@ -1,17 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@400;700&family=Playfair+Display:wght@900&display=swap');
+@mixin title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: 'Excon-Bold';
+  text-align: center;
+}
 
-$background-clr: #05004e;
+@mixin grid-container {
+  width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 500px 2fr;
+  }
+
+@mixin subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    .underline {
+    display: block;
+    background-color: $purple-clr;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+  }
+}
+
+$dark-gray-clr: #343a40;
+$light-clr: #fff;
+
+$overlay-clr: rgba(0, 0, 0, 0.8);
+$background-2-clr: hsl(217, 54%, 11%);
+$background-3-clr: hsl(216, 50%, 16%);
+
+$purple-clr: hsl(215, 51%, 70%);
+$purple-1-clr: hsl(228, 45%, 44%);
+
+$link-color: hsl(178, 100%, 50%);
+
+$border-top: 1px solid hsl(215, 32%, 27%);
+
+$shadow: 10px 10px 50px rgba(0, 0, 0, 0.4);
+
 
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-image: url('../src/images/background.jpg');
-  background-color: $background-clr;
+  max-width: 100%;
+  font-family: 'Raleway', sans-serif;
+  background-color: $background-2-clr;
 }
 
 
-.layout {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}

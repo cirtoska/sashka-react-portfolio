@@ -1,14 +1,22 @@
 import React from "react";
 import "./Home.scss";
-import Sidebar from "../../components/sidebar/Sidebar";
+import Navbar from "../../layout/navbar/Navbar";
 
 const Home = () => {
   return (
     <div className="layout">
-      <Sidebar />
+      <div className="overlay"></div>
       <main id="home">
-        <h1 className="display-name">Aleksandra Chirtoska</h1>
-        <h3 className="title-role">web developer</h3>
+        <section className="title">
+          <p className="eyebrow-heading">Hello, I'm</p>
+          <h1 className="display-name">Aleksandra Chirtoska</h1>
+          <h3 className="title-role">web developer & designer</h3>
+          <p>
+            I'm a passionate programmer that enjoys creating elegantly simple
+            things.
+          </p>
+          <Navbar />
+        </section>
       </main>
     </div>
   );

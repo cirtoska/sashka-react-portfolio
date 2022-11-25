@@ -1,0 +1,9 @@
+@import '../../App.scss';
+
+#portfolio {
+
+
+  .grid-container {
+  @include grid-container;
+  }
+}
