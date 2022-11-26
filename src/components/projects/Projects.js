@@ -1,10 +1,10 @@
 import React from "react";
 
-const Projects = ({ projects }) => {
-  console.log(projects);
+const Projects = ({ listProjects }) => {
+  console.log("Projects", listProjects);
   return (
     <article className="list-projects">
-      {projects.portfolio.map((project) => {
+      {listProjects.map((project) => {
         return (
           <div key={project.id} className={`project-card card-${project.id}`}>
             <div className="img-zoom">

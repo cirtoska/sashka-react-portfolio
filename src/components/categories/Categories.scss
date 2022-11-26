@@ -1,0 +1,19 @@
+@import '../../App.scss';
+
+.btn-container {
+  margin-top: 2rem;
+
+  .filter-btn {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: 'Excon-Bold';
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

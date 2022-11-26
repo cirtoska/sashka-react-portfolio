@@ -1,10 +1,14 @@
 import React from "react";
+import { data } from "../../data/portfolioData";
+import "./Categories.scss";
 
-const Categories = ({ categories, filterProjects }) => {
-  console.log(categories);
+const Categories = ({ setListProjects, filterProjects, menuItems }) => {
   return (
     <div className="btn-container">
-      {categories.map((category, index) => {
+      <button className="filter-btn" onClick={() => setListProjects(data)}>
+        All
+      </button>
+      {menuItems.map((category, index) => {
         return (
           <button
             type="button"
