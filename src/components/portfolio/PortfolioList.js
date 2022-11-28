@@ -4,6 +4,7 @@ import "./PortfolioList.scss";
 import { data } from "../../data/portfolioData";
 import Categories from "../categories/Categories";
 import Projects from "../projects/Projects";
+import Modal from "../../components/modal/Modal";
 
 const PortfolioList = () => {
   const [listProjects, setListProjects] = useState(data);

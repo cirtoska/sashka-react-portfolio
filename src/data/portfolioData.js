@@ -7,6 +7,11 @@ export const data = [
     categories: "React",
     liveUrl: "https://react-api-web-app.vercel.app/",
     githubUrl: "https://github.com/cirtoska/react-api-web-app",
+    technology: ["React", "CSS", "Redux", "API"],
+    date: "Sep 2022",
+    description:
+      "This is my final React project from IWEC Academy. I've used all skills that I've learned from IWEC. All is worked with functional components. I was using almost all APIs from https://dummyjson.com/; Login details fot the Login Page are username: kminchelle; password: 0lelplR",
+    responsive: true,
   },
   {
     id: 2,
@@ -18,6 +23,11 @@ export const data = [
       "https://cirtoska.github.io/Challenge-Project---Responsive-Club-Website/",
     githubUrl:
       "https://github.com/cirtoska/Challenge-Project---Responsive-Club-Website",
+    technology: ["HTML5", "CSS3", "UX/UI"],
+    date: "Aug 2022",
+    description:
+      "This projects is from Codecademy WEB DEVELOPMENT FOUNDATIONS. The task was to create a webpage for a local club. I've choose everything about this page: the club name, the logo, the page layout and styling, all the images I've used are from Unspalsh.",
+    responsive: true,
   },
   {
     id: 3,
@@ -29,6 +39,11 @@ export const data = [
       "https://cirtoska.github.io/Chalenge-Project-Flexbox-business-site/",
     githubUrl:
       "https://github.com/cirtoska/Chalenge-Project-Flexbox-business-site",
+    technology: ["HTML5", "CSS3", "UX/UI"],
+    date: "Aug 2022",
+    description:
+      "This projects is from Codecademy WEB DEVELOPMENT FOUNDATIONS. The task was to create a company homepage. I've choose everything about this page: the title and logo, for the page layout and styling I was using flexbox, products section, company's employees, all the images I've used are from Unspalsh.",
+    responsive: true,
   },
   {
     id: 4,
@@ -39,6 +54,11 @@ export const data = [
     categories: "React",
     liveUrl: "https://random-quote-machine-five.vercel.app/",
     githubUrl: "https://github.com/cirtoska/random-quote-machine",
+    technology: ["React", "CSS3", "UX/UI"],
+    date: "Aug 2022",
+    description:
+      "This projects is from Codecademy WEB DEVELOPMENT FOUNDATIONS. The task was to create a company homepage. I've choose everything about this page: the title and logo, for the page layout and styling I was using flexbox, products section, company's employees, all the images I've used are from Unspalsh.",
+    responsive: true,
   },
   {
     id: 5,
@@ -95,6 +115,11 @@ export const data = [
     categories: "React",
     liveUrl: "https://delightful-halva-6eb892.netlify.app/",
     githubUrl: "https://github.com/cirtoska/best-books-2022",
+    technology: ["React", "CSS3"],
+    date: "Jul 2022",
+    description:
+      "This projects is from Codecademy WEB DEVELOPMENT FOUNDATIONS. The task was to create a webpage for a local club. I've choose everything about this page: the club name, the logo, the page layout and styling, all the images I've used are from Unspalsh.",
+    responsive: true,
   },
   {
     id: 11,
