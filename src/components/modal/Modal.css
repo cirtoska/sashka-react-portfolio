@@ -15,39 +15,86 @@
 .show-modal {
   visibility: visible;
   z-index: 10;
+
+}
+.modal-box {
+  background: white;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding: 4rem;
+}
+.project-title {
+  font-family: 'Playfair';
+  font-size: 3rem;
+  margin-bottom: 4rem;
 }
 .modal-container {
-  background: white;
-  border-radius: 20px;
-  width: 90vw;
-  height: 50vh;
-  max-width: 900px;
-  text-align: center;
   display: grid;
-  place-items: center;
-  position: relative;
-  overflow-y: scroll;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.project-img img{
+  width: 100%;
+}
+
+.project-info {
+  padding: 0 3.5rem;
+  border-left: 3px solid rgb(240, 239, 239);
+  display: grid;
+  font-size: 1.4rem;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  color:#6495ed;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #d26476;
+  font-weight: 500;
+  transition: color 0.5s ease;
+}
+a:hover {
+  color: inherit;
+}
+.desc h3 {
+  background: linear-gradient(to left, #6495ed 0%, #ffffff 50%);
+  display: inline-block;
+  padding: 0.25rem 1rem 0.25rem 0;
+  border-radius: 0 20px 20px 0;
+  margin-bottom: 1rem;
+}
+.desc p {
+  font-size: 1.2rem;
 }
 .close-modal-btn {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 2rem;
+  right: 4rem;
   font-size: 2rem;
-  background: transparent;
-  border-color: transparent;
-  color: hsl(360, 67%, 44%);
+  padding: 5px 5px 0 5px;
+  color: rgb(93, 93, 93);
+  background-color: rgb(235, 235, 235);
   cursor: pointer;
+  transition: color 0.5s ease, backgraund-color 0.5s ease;
+  border: transparent;
 }
 
-.modal-img {
-  
+.close-modal-btn:hover {
+  background-color: #d26476;
+  color: #ffffff;
 }
 
-.modal-img > img {
-  width: 100%;
-  display: block;
-  border-radius: 20px;
-  height: 300px;
-  overflow: hidden;
-}
+
 

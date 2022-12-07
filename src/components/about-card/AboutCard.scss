@@ -1,6 +1,10 @@
 @import '../../App.scss';
 
 .about-box {
+  position: absolute;
+  right: 0;
+  top: auto;
+  width: 60%;
   background-color: $light-clr;
   border-radius: 1rem;
   padding: 2rem;

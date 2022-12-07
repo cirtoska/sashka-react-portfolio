@@ -7,3 +7,19 @@
   @include grid-container;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #portfolio {
+    .grid-container {
+      grid-template-columns: 1fr;
+      margin: 2rem;
+      #profile-card {
+        display: none;
+      }
+      .portfolio-box {
+        position: static;
+        width: 100%; 
+      }
+    }
+  }
+}

@@ -2,7 +2,9 @@
 @import '../../assets/css/excon.css';
 
 #profile-card {
-  margin: 6.2rem 5rem 0 0;
+  position: fixed;
+  top: auto;
+  margin: 6.2rem 5rem;
 
   .profile-card {
     position: relative;
@@ -111,3 +113,4 @@
   }
 
 }
+

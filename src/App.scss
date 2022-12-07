@@ -7,7 +7,8 @@
 }
 
 @mixin grid-container {
-  width: 1400px;
+  position: relative;
+  max-width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 500px 2fr;

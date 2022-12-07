@@ -5,7 +5,6 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Portfolio from "./pages/portfolio/Portfolio";
-// import Navbar from "./layout/navbar/Navbar";
 
 function App() {
   return (
