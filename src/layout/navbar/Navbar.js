@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.scss";
 import { NavLink } from "react-router-dom";
 import { BsHouse, BsEnvelope } from "react-icons/bs";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineUser } from "react-icons/ai";
 import { FaEye } from "react-icons/fa";
 
 const Navbar = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
     <header>
       <nav>
-        <ul className="nav-links">
+        <ul className={isNavExpanded ? "nav-links expanded" : "nav-links"}>
           <li>
             <NavLink
               to="/"
@@ -56,6 +59,14 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+        <button
+          className="hamburger-btn"
+          onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+          }}
+        >
+          <GiHamburgerMenu className="hamburger-icon" />
+        </button>
       </nav>
     </header>
   );

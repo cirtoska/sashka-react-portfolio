@@ -8,6 +8,7 @@ const Home = () => {
       <div className="overlay"></div>
       <main id="home">
         <section className="title">
+          <Navbar />
           <p className="eyebrow-heading">Hello, I'm</p>
           <h1 className="display-name animate__animated animate__bounceInLeft">
             Aleksandra Chirtoska
@@ -17,7 +18,6 @@ const Home = () => {
             I'm a passionate programmer that enjoys creating elegantly simple
             things.
           </p>
-          <Navbar />
         </section>
       </main>
     </div>
