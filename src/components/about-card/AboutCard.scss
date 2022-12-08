@@ -8,12 +8,17 @@
   background-color: $light-clr;
   border-radius: 1rem;
   padding: 2rem;
-  margin: 0 0 0 5rem;
+  margin: 0 5rem;
   display: flex;
+  gap: 3.5rem;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
+  // align-items: center;
 
   .title {
+    margin-top: 2rem;
+    letter-spacing: 0.2rem;
     @include title;
   }
 
@@ -31,6 +36,7 @@
     }
   }
   .subtitle {
+    // margin-top: 2rem;
     @include subtitle;
   }
   

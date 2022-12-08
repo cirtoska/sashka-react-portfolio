@@ -1,11 +1,15 @@
 import React, { useState } from "react";
-import { useGlobalContext } from "../context/ModalContext";
+
 import Modal from "../modal/Modal";
 
 const Projects = ({ listProjects }) => {
-  console.log("Projects", listProjects);
-  const { openModal } = useGlobalContext();
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentProject, setCurrentProject] = useState(0);
+
+  const toggleModal = (currentProject) => {
+    setCurrentProject(currentProject);
+    setIsModalOpen(!isModalOpen);
+  };
 
   return (
     <>
@@ -16,12 +20,23 @@ const Projects = ({ listProjects }) => {
             <>
               <div key={id} className={`project-card card-${id}`}>
                 <div className="img-zoom">
-                  <img src={cover} alt={title} onClick={openModal} />
+                  <img
+                    src={cover}
+                    alt={title}
+                    onClick={() => toggleModal(project)}
+                  />
                 </div>
 
                 <h3>{title}</h3>
               </div>
-              {openModal && <Modal listProjects={listProjects} />}
+              {isModalOpen && (
+                <Modal
+                  onClose={toggleModal}
+                  currentProject={currentProject}
+                  setCurrentProject={setCurrentProject}
+                  listProjects={listProjects}
+                />
+              )}
             </>
           );
         })}

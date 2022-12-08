@@ -19,30 +19,34 @@
 }
 .modal-box {
   background: white;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: relative;
   padding: 4rem;
 }
 .project-title {
-  font-family: 'Playfair';
+  font-family: 'Comfortaa';
   font-size: 3rem;
-  margin-bottom: 4rem;
+  margin: 3rem 0;
 }
 .modal-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
   gap: 4rem;
 }
 
 .project-img img{
   width: 100%;
+  border: 5px solid #ffcad3;
+  padding: 0;
 }
 
 .project-info {
   padding: 0 3.5rem;
   border-left: 3px solid rgb(240, 239, 239);
   display: grid;
+  gap: 2rem;
   font-size: 1.4rem;
 }
 
@@ -78,23 +82,42 @@ a:hover {
 .desc p {
   font-size: 1.2rem;
 }
-.close-modal-btn {
+.close-modal-btn, .prev-btn, .next-btn {
   position: absolute;
   top: 2rem;
-  right: 4rem;
   font-size: 2rem;
   padding: 5px 5px 0 5px;
   color: rgb(93, 93, 93);
-  background-color: rgb(235, 235, 235);
+  background: rgb(235, 235, 235);
   cursor: pointer;
-  transition: color 0.5s ease, backgraund-color 0.5s ease;
+  transition: color 0.5s ease, background 0.5s ease;
   border: transparent;
 }
+.close-modal-btn {
+  right: 4rem;
+}
+.next-btn {
+  right: 7rem;
+}
+.prev-btn {
+  right: 10rem;
+}
 
-.close-modal-btn:hover {
-  background-color: #d26476;
+.close-modal-btn:hover, .prev-btn:hover, .next-btn:hover {
   color: #ffffff;
+  background: #ffacba;
 }
 
 
 
+@media screen and (max-width: 1100px){
+  .modal-box {
+    overflow-y: scroll;
+  }
+  .modal-container {
+    grid-template-columns: 1fr;
+  }
+  .project-info {
+    border: none;
+  }
+}
