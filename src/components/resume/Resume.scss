@@ -1,0 +1,123 @@
+@import '../../App.scss';
+
+.resume {
+  margin: 5rem;
+  background-color: $light-clr;
+  border-radius: 1rem;
+  padding: 2rem;
+
+  .title {
+    @include title;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .sec-experience {
+
+      .resume-item {
+        margin: 2rem;
+
+        .resume-subtitle {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+
+          h3 {
+            @include h3;
+          }
+
+          img {
+            width: 50px;
+          }
+        }
+
+        .content {
+          display: flex;
+          justify-content: space-between;
+          // align-items: center;
+          gap: 1rem;
+          font-weight: 600;
+
+          .left-side {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1rem;
+            span {
+              font-size: 0.8rem;
+              color: gray;
+              
+            }
+          }
+
+          .right-side {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 2.5rem;
+          }
+        }
+      }
+    }
+
+    .sec-skills {
+
+      .skill-item {
+        margin: 2rem;
+      h3 {
+        @include h3;
+      }
+    }
+  }
+
+    .sec-knowledge {
+      text-align: center;
+      margin: auto;
+
+      .knowledge-item {
+        margin: 2rem;
+
+        h3 {
+          @include h3;
+          }
+        
+        .knowledge-tag {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          row-gap: 10px;
+          span {
+            border-radius: 10px;
+            background-color: $resume-clr;
+            color: $light-clr;
+            font-weight: 600;
+            padding: 5px;
+          }
+        }
+
+        ul {
+          li {
+            padding: 5px;
+          }
+        }
+
+        .hobbies-grid {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+          justify-content: space-between;
+          text-align: center;
+          margin: 0 auto;
+
+          img {
+            width: 100px;
+            display: block;
+
+          }
+        }
+      }
+    }
+  }
+}

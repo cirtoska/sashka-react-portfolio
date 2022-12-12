@@ -1,18 +1,18 @@
 import React from "react";
 import "./Portfolio.scss";
 import Navbar from "../../layout/navbar/Navbar";
-import ProfileCard from "../../components/profile-card/ProfileCard";
 import PortfolioList from "../../components/portfolio/PortfolioList";
+import Footer from "../../layout/footer/Footer";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <>
       <Navbar />
-      <div className="grid-container">
-        <ProfileCard />
+      <main id="portfolio">
         <PortfolioList />
-      </div>
-    </section>
+      </main>
+      <Footer />
+    </>
   );
 };
 

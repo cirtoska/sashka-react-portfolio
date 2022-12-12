@@ -1,23 +1,16 @@
 @import '../../App.scss';
 
 .about-box {
-  position: absolute;
-  right: 0;
-  top: auto;
-  width: 60%;
   background-color: $light-clr;
   border-radius: 1rem;
   padding: 2rem;
   margin: 0 5rem;
   display: flex;
-  gap: 3.5rem;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
-  // align-items: center;
 
   .title {
-    margin-top: 2rem;
     letter-spacing: 0.2rem;
     @include title;
   }
@@ -36,7 +29,7 @@
     }
   }
   .subtitle {
-    // margin-top: 2rem;
+    margin-top: 2rem;
     @include subtitle;
   }
   

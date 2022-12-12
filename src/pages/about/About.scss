@@ -1,10 +1,32 @@
 @import '../../App.scss';
 
 #about {
-
+min-height: 92vh;
   .grid-container {
   @include grid-container;
   }
 
 
+}
+@media screen and (max-width: 1000px) {
+  #about {
+    .grid-container {
+      grid-template-columns: 1fr;
+      margin: 2rem;
+      #profile-card {
+        position: static;
+        margin: 6.5rem auto;
+
+        .profile-img {
+          top: -100px;
+          left: 0px;
+        }
+      }
+      .about-box {
+        position: static;
+        width: 90%; 
+        margin: auto;
+      }
+    }
+  }
 }

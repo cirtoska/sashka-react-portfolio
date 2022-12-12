@@ -55,7 +55,10 @@ const ProfileCard = () => {
           </p>
         </div>
         <div className="download-resume">
-          <a href="#" className="download-btn">
+          <a
+            href="https://aleksandrachirtoska.com/files/Resume-Aleksandra-Chirtoska-nov2022.pdf"
+            className="download-btn"
+          >
             <img src={download} alt="download resume" /> Download CV
           </a>
         </div>
