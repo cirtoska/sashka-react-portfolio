@@ -7,6 +7,7 @@ import workIcon from "../../assets/images/icons/work.png";
 import yogaIcon from "../../assets/images/icons/yoga.png";
 import cookingIcon from "../../assets/images/icons/cooking.png";
 import plantingIcon from "../../assets/images/icons/planting.png";
+import dotSeparator from "../../assets/images/icons/dot.png";
 
 const Resume = () => {
   return (
@@ -34,6 +35,17 @@ const Resume = () => {
                   <span>High School Orce Nikolov - Skopje</span>
                 </div>
               </div>
+              <div className="middle">
+                <span className="dot-separator">
+                  <img src={dotSeparator} alt="separator" />
+                </span>
+                <span className="dot-separator">
+                  <img src={dotSeparator} alt="separator" />
+                </span>
+                <span className="dot-separator">
+                  <img src={dotSeparator} alt="separator" />
+                </span>
+              </div>
               <div className="right-side">
                 <p>Frontend Developer with React</p>
                 <p>Interior and Furniture Design</p>
@@ -46,20 +58,171 @@ const Resume = () => {
               <img src={certificatesIcon} alt="certification icon" />
               <h3>Certifications</h3>
             </div>
+            <div className="content">
+              <div className="left-side">
+                <div className="edu-info">
+                  <p>Oct 2022</p>
+                  <span>Codecademy</span>
+                </div>
+                <div className="edu-info">
+                  <p>Sep 2022</p>
+                  <span>freeCodeCamp</span>
+                </div>
+                <div className="edu-info">
+                  <p>Jul 2022</p>
+                  <span>freeCodeCamp</span>
+                </div>
+              </div>
+              <div className="middle">
+                <span className="dot-separator">
+                  <img src={dotSeparator} alt="separator" />
+                </span>
+                <span className="dot-separator">
+                  <img src={dotSeparator} alt="separator" />
+                </span>
+                <span className="dot-separator">
+                  <img src={dotSeparator} alt="separator" />
+                </span>
+              </div>
+              <div className="right-side">
+                <p>Learn React Course</p>
+                <p>Front End Development Libraries</p>
+                <p>Responsive Web Design</p>
+              </div>
+            </div>
           </article>
           <article className="resume-item">
             <div className="resume-subtitle">
               <img src={workIcon} alt="work icon" />
               <h3>Experience</h3>
             </div>
+            <div className="content">
+              <div className="left-side">
+                <div className="edu-info">
+                  <p>Jan 2009 - Present</p>
+                  <span>Self-employed</span>
+                </div>
+              </div>
+              <div className="middle">
+                <span className="dot-separator">
+                  <img src={dotSeparator} alt="separator" />
+                </span>
+              </div>
+              <div className="right-side">
+                <p>Web Administrator</p>
+              </div>
+            </div>
           </article>
         </div>
         <div className="sec-skills">
           <article className="skill-item">
             <h3>Design Skills</h3>
+            <div className="skill-slider">
+              <div className="slider">
+                <p>Responsive Web Design</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="85"
+                />
+              </div>
+              <div className="slider">
+                <p>Adobe Photoshop</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="65"
+                />
+              </div>
+              <div className="slider">
+                <p>Adobe XD/Figma</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="70"
+                />
+              </div>
+              <div className="slider">
+                <p>Logo Design</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="60"
+                />
+              </div>
+              <div className="slider">
+                <p>UX/UI Design</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="75"
+                />
+              </div>
+            </div>
           </article>
           <article className="skill-item">
             <h3>Coding Skills</h3>
+            <div className="skill-slider">
+              <div className="slider">
+                <p>HTML/CSS</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="90"
+                />
+              </div>
+              <div className="slider">
+                <p>JAvaScript</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="65"
+                />
+              </div>
+              <div className="slider">
+                <p>React</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="60"
+                />
+              </div>
+              <div className="slider">
+                <p>Git</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="60"
+                />
+              </div>
+            </div>
           </article>
         </div>
         <div className="sec-knowledge">

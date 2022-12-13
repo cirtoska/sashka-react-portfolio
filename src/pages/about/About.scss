@@ -28,5 +28,9 @@ min-height: 92vh;
         margin: auto;
       }
     }
+
+    .grid-2 {
+      grid-template-columns: 1fr;
+    }
   }
 }

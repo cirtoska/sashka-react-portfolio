@@ -39,16 +39,12 @@
     border-left: $purple-clr 5px solid;
     border-radius: 5px;
     font-size: 1.4rem;
-    &::before {
-      content: '" ';
-      font-family: serif;
-      font-size: 2rem;
-    }
+    
+  
 
     cite {
       font-size: 1.3rem;
       display: block;
-      text-align: right;
       &::before {
         content: '- ';
         padding-right: 5px;

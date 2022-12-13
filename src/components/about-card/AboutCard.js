@@ -29,7 +29,7 @@ const AboutCard = () => {
         <div className="underline"></div>
       </div>
       <blockquote>
-        The cave you fear to enter holds the treasure you seek.
+        "The cave you fear to enter holds the treasure you seek."
         <cite>Joseph Campbell</cite>
       </blockquote>
     </section>

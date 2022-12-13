@@ -13,6 +13,7 @@
   .grid-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  
 
     .sec-experience {
 
@@ -22,10 +23,13 @@
         .resume-subtitle {
           display: flex;
           align-items: center;
+          align-content: center;
+          justify-items: center;
           gap: 1rem;
 
           h3 {
             @include h3;
+            margin-bottom: 0;
           }
 
           img {
@@ -35,16 +39,17 @@
 
         .content {
           display: flex;
-          justify-content: space-between;
-          // align-items: center;
+          // justify-content: center;
           gap: 1rem;
           font-weight: 600;
+          margin-top: 1rem;
 
           .left-side {
-            display: flex;
-            flex-direction: column;
+            display: grid;
             justify-content: space-between;
-            gap: 1rem;
+            grid-template-rows: repeat(3, 1fr);
+            gap: 2rem;
+            text-align: right;
             span {
               font-size: 0.8rem;
               color: gray;
@@ -52,32 +57,82 @@
             }
           }
 
+          .middle {
+            display: grid;
+            justify-content: space-between;
+            grid-template-rows: repeat(3, 1fr);
+            gap: 2rem;
+
+            .dot-separator {
+              display: block;
+
+              img {
+                width: 20px;
+              }
+            }
+          }
+
           .right-side {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            gap: 2.5rem;
+            display: grid;
+            justify-content: space-between;
+            grid-template-rows: repeat(3, 1fr);
+            gap: 2rem;
           }
         }
       }
     }
 
     .sec-skills {
-
+      
       .skill-item {
         margin: 2rem;
+        font-size: 1.1rem;
+        font-weight: 600;
       h3 {
         @include h3;
+        text-align: center;
+      }
+      .skill-slider {
+        display: grid;
+            justify-content: center;
+            grid-template-rows: repeat(3, 1fr);
+            gap: 1rem;
+
+            .slider {
+              p {
+                padding-bottom: 1rem ;
+              }
+
+              .slide {
+                -webkit-appearance: none;
+                display: block;
+                width: 100%;
+                height: 1.4rem;
+                background-color: #DEF5F3;
+                border-radius: 15px;
+
+               &::-webkit-slider-thumb {
+                appearance: none;
+                background: $resume-clr;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+               }
+            }
+            }
       }
     }
   }
 
     .sec-knowledge {
       text-align: center;
-      margin: auto;
+      display: grid;
+            align-content: start;
+            grid-template-rows: repeat(3, 1fr);
+            margin-top: 2rem;
 
       .knowledge-item {
-        margin: 2rem;
+        // margin: 2rem;
 
         h3 {
           @include h3;
@@ -112,7 +167,7 @@
           margin: 0 auto;
 
           img {
-            width: 100px;
+            width: 150px;
             display: block;
 
           }
