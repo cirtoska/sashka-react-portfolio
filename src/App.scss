@@ -2,7 +2,7 @@
   font-size: 2rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  font-family: 'Excon-Bold';
+  font-family: 'Futura Now Text', sans-serif;                                               
   text-align: center;
 }
 
@@ -36,8 +36,9 @@
 }
 
 @mixin h3 {
-  font-family: 'Raleway';
+  font-family: 'Futura Now Text', sans-serif;  
   font-size: 1.5rem;
+  text-transform: uppercase;
   margin-bottom: 1rem;
 }
 

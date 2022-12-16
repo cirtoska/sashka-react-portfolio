@@ -59,34 +59,34 @@ const Modal = ({
               <p>{description}</p>
             </div>
             <div className="grid-item">
-              <FaFolderOpen className="icon" />
+              <FaFolderOpen className="modal-icon" />
               Project: {categories}
             </div>
             <div className="grid-item">
-              <FaCode className="icon" />
+              <FaCode className="modal-icon" />
               Technology: {technology + " "}
             </div>
             <div className="grid-item">
-              <FaMobileAlt className="icon" /> Responsive:{" "}
+              <FaMobileAlt className="modal-icon" /> Responsive:{" "}
               {{ responsive } ? (
-                <FaCheckCircle className="icon" />
+                <FaCheckCircle className="modal-icon" />
               ) : (
-                <FaRegTimesCircle className="icon" />
+                <FaRegTimesCircle className="modal-icon" />
               )}
             </div>
             <div className="grid-item">
-              <FaCalendarAlt className="icon" />
+              <FaCalendarAlt className="modal-icon" />
               Created: {date}
             </div>
 
             <div className="grid-item">
-              <FaExternalLinkAlt className="icon" /> Preview:
+              <FaExternalLinkAlt className="modal-icon" /> Preview:
               <a href={githubUrl} target="_blank">
-                <FaGit className="icon" /> {githubUrl}
+                <FaGit className="modal-icon" /> {githubUrl}
               </a>
             </div>
             <div className="grid-item">
-              <FaGlobe className="icon" />
+              <FaGlobe className="modal-icon" />
               Demo:
               <a href={liveUrl} target="_blank">
                 {liveUrl}
