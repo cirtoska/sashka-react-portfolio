@@ -32,18 +32,18 @@ const Modal = ({
     responsive,
   } = currentProject;
 
-  const nextProject = () => {
-    setCurrentProject(
-      currentProject === listProjects.length - 1 ? 0 : currentProject + 1
-    );
-  };
-  console.log(listProjects.length - 1);
+  // const nextProject = () => {
+  //   setCurrentProject(
+  //     currentProject === listProjects.length - 1 ? 0 : currentProject + 1
+  //   );
+  // };
+  // console.log(listProjects.length - 1);
 
-  const prevProject = () => {
-    setCurrentProject(
-      currentProject === 0 ? listProjects.length - 1 : currentProject - 1
-    );
-  };
+  // const prevProject = () => {
+  //   setCurrentProject(
+  //     currentProject === 0 ? listProjects.length - 1 : currentProject - 1
+  //   );
+  // };
 
   return (
     <div className="modal-overlay show-modal animate__animated animate__slideInLeft">
@@ -93,12 +93,12 @@ const Modal = ({
               </a>
             </div>
           </article>
-          <button className="next-btn" onClick={nextProject}>
+          {/* <button className="next-btn" onClick={nextProject}>
             <GrNext />
           </button>
           <button className="prev-btn" onClick={prevProject}>
             <GrPrevious />
-          </button>
+          </button> */}
           <button className="close-modal-btn" onClick={onClose}>
             <GrClose />
           </button>

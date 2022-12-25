@@ -1,0 +1,93 @@
+@import '../../App.scss';
+
+.contact {
+  min-height: 92vh;
+
+  .container {
+    background-color: $light-clr;
+    margin: 2rem;
+    padding: 4rem;
+    border-radius: 1rem;
+
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       
+      h2 {
+        @include title;
+      }
+
+      .underline {
+        display: block;
+        background-color: $purple-clr;
+        width: 100px;
+        height: 5px;
+        border-radius: 5px;
+      }
+    }
+    h3 {
+      font-family: 'Futura Now Text', sans-serif;  
+      font-size: 1.5rem;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      margin-top: 1rem;
+
+      .basic-contact {
+        display: grid;
+        grid-template-rows: repeat(3, minmax(200px, 1fr));
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        text-align: center;
+  
+        .contactItem {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 2rem;
+          padding: 2rem;
+          border-radius: 1rem;
+          gap: 1rem;
+          background-color: #F9E9F3; 
+        }
+      }
+  
+      .contact-form {
+        text-align: center;
+        background-color: #E3F0F0;
+        margin: 2rem;
+        padding: 2rem;
+        border-radius: 1rem;
+
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          // align-items: center;
+          .input-field {
+            background-color: transparent;
+            border: none;
+            font-size: 1rem;
+          }
+          .textarea {
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            font-size: 1rem;
+            font-family: sans-serif;
+          }
+        }
+      }
+    }
+    
+  }
+}

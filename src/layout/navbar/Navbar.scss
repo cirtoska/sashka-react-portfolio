@@ -46,13 +46,12 @@ header {
         font-size: 1.2rem;
         border-radius: 10px;
         cursor: pointer;
-        transition: all 0.5s ease;
-  
         &:hover {
-          transform: scale(1.05);
+          // transform: scale(1.05);
           background-color: $purple-clr;
           color: $light-clr;
-          transition: all 0.5s ease;
+          transition: all 0.5s ease;  
+
       }
     }
   
