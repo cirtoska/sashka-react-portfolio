@@ -1,7 +1,9 @@
 @import '../../App.scss';
 
 #about {
+  position: relative;
 min-height: 92vh;
+// margin: 2rem;
   .grid-container {
   @include grid-container;
   }

@@ -22,7 +22,7 @@
 #home {
   color: $light-clr;
   font-family: 'Raleway', sans-serif;
-  margin: 4rem;
+  margin: 4rem 2rem;
   z-index: 1;
 
   .eyebrow-heading {
@@ -38,9 +38,7 @@
     width: 50%;
     letter-spacing: 0.25rem;
     line-height: 1.2;
-
     }
-
 
   .title-role {
     font-family: 'Comfortaa', cursive;
@@ -52,9 +50,53 @@
     padding: 0 2rem;
     font-weight: 500;
     font-size: 1.4rem;
+  }
+}
 
+@media screen and (max-width: 700px) {
+  .layout {
+    background-image: none;
+    align-items: baseline;
+    .overlay {
+      display: none;
+    }
   }
 
-  
 
+  #home {
+  
+    .eyebrow-heading {
+      font-size: 2rem;
+    }
+  
+    .display-name {
+      font-size: 4rem;
+      }
+    .title-role {
+      font-size: 2rem;
+    }  
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #home {
+    
+  
+    .eyebrow-heading {
+      font-size: 1.5rem;
+    }
+  
+    .display-name {
+      font-size: 2.8rem;
+      }
+    .title-role {
+      font-size: 1.5rem;
+    }  
+    p {
+      font-size: 1rem;
+    }
+  }
 }

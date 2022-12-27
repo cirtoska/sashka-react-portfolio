@@ -68,7 +68,7 @@ header {
       }
   
       .active {
-        background-color: $purple-clr !important;
+        background-color: $purple-clr;
         color: $light-clr;
       }
     }
@@ -78,8 +78,14 @@ header {
 @media screen and (max-width: 900px) {
   header{
     nav {
+      justify-content: flex-end;
+
       .hamburger-btn {
         display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
       }
     
       .nav-links {
@@ -88,6 +94,14 @@ header {
     
       .nav-links.expanded {
         display: block;
+        background-color: $dark-gray-clr;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        padding-top: 5rem;
       }
     }
   }

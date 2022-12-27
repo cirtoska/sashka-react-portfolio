@@ -9,8 +9,8 @@ import Resume from "../../components/resume/Resume";
 const About = () => {
   return (
     <>
+      <Navbar />
       <main id="about">
-        <Navbar />
         <div className="grid-container">
           <ProfileCard />
           <AboutCard />

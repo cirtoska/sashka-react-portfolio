@@ -11,7 +11,7 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <>
-      <main class="contact">
+      <main className="contact">
         <Navbar />
         <div className="container">
           <div className="title">
