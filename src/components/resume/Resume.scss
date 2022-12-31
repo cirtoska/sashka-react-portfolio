@@ -5,6 +5,7 @@
   background-color: $light-clr;
   border-radius: 1rem;
   padding: 2rem;
+  box-shadow: $shadow;
 
   .title {
     @include title;
@@ -199,6 +200,24 @@
             
             justify-content: center;
             
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .resume {
+    width: 100%;
+    .grid-2 {
+
+      .sec-knowledge {
+        display: block;
+
+        .knowledge-item {
+          margin-bottom: 2rem;
+          .hobbies-grid {
+            flex-direction: column;
           }
         }
       }

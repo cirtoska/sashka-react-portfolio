@@ -44,14 +44,18 @@ header {
         margin: 2rem;
         padding: 15px 30px;
         font-size: 1.2rem;
-        border-radius: 10px;
+        border: 1px solid black;
+        border-radius: 1rem;
         cursor: pointer;
+        transition: 0.3s ease-in-out;
         &:hover {
           // transform: scale(1.05);
           background-color: $purple-clr;
           color: $light-clr;
-          transition: all 0.5s ease;  
-
+          // transition: all 0.5s ease;  
+          
+            box-shadow: $shadow-2d;
+          
       }
     }
   

@@ -24,7 +24,7 @@ const Contact = () => {
             don't hesitate to use the form.
           </h3>
           <section className="content">
-            <article className="basic-contact">
+            {/* <article className="basic-contact">
               <div className="contactItem">
                 <img src={mobile} alt="mobile icon" />
                 <a href="tel:+38978294523">+38978294523</a>
@@ -37,50 +37,60 @@ const Contact = () => {
                 <img src={location} alt="location icon" />
                 <span>Prilep, Macedonia</span>
               </div>
-            </article>
+            </article> */}
             <article className="contact-form">
               <form
                 action="https://formsubmit.co/598dde396fbcf6fc09490ab6f858613c"
                 method="POST"
                 id="contact"
               >
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Name"
-                  className="input-field"
-                  required
-                />
-                <label htmlFor="name"></label>
-
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                  className="input-field"
-                  required
-                />
-                <label htmlFor="email"></label>
-
-                <input
-                  type="text"
-                  name="subject"
-                  id="subject"
-                  placeholder="Subject"
-                  className="input-field"
-                />
-                <label htmlFor="subject"></label>
-                <label htmlFor="message">
+                <div className="field-holder">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    className="input-field"
+                    required
+                  />
+                  <label htmlFor="name" className="active-label">
+                    Name *
+                  </label>
+                </div>
+                <div className="field-holder">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    className="input-field"
+                    required
+                  />
+                  <label htmlFor="email" className="active-label">
+                    Email *
+                  </label>
+                </div>
+                <div className="field-holder">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    className="input-field"
+                    required
+                  />
+                  <label htmlFor="subject" className="active-label">
+                    Subject *
+                  </label>
+                </div>
+                <div className="field-holder">
                   <textarea
                     name="message"
                     id="message"
-                    placeholder="Message"
                     className="textarea"
+                    required
                   ></textarea>
-                </label>
-
+                  <label htmlFor="message" className="active-label">
+                    Message *
+                  </label>
+                </div>
                 <button className="btn-submit" type="submit">
                   Send Message!
                 </button>

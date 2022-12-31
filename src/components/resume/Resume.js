@@ -127,6 +127,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="85"
+                  readOnly
                 />
               </div>
               <div className="slider">
@@ -138,6 +139,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="65"
+                  readOnly
                 />
               </div>
               <div className="slider">
@@ -149,6 +151,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="70"
+                  readOnly
                 />
               </div>
               <div className="slider">
@@ -160,6 +163,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="60"
+                  readOnly
                 />
               </div>
               <div className="slider">
@@ -171,6 +175,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="75"
+                  readOnly
                 />
               </div>
             </div>
@@ -187,6 +192,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="90"
+                  readOnly
                 />
               </div>
               <div className="slider">
@@ -198,6 +204,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="65"
+                  readOnly
                 />
               </div>
               <div className="slider">
@@ -209,6 +216,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="60"
+                  readOnly
                 />
               </div>
               <div className="slider">
@@ -220,6 +228,7 @@ const Resume = () => {
                   max="100"
                   step="5"
                   value="60"
+                  readOnly
                 />
               </div>
             </div>
@@ -241,6 +250,15 @@ const Resume = () => {
               <span>Teamwork</span>
             </div>
           </article>
+
+          <article className="knowledge-item">
+            <h3>Hobbies</h3>
+            <div className="hobbies-grid">
+              <img src={yogaIcon} alt="yoga icon" />
+              <img src={plantingIcon} alt="yoga icon" />
+              <img src={cookingIcon} alt="yoga icon" />
+            </div>
+          </article>
           <article className="knowledge-item">
             <h3>Languages</h3>
             <ul>
@@ -249,14 +267,6 @@ const Resume = () => {
               <li>Serbian - Intermediate</li>
               <li>Italian - Basic</li>
             </ul>
-          </article>
-          <article className="knowledge-item">
-            <h3>Hobbies</h3>
-            <div className="hobbies-grid">
-              <img src={yogaIcon} alt="yoga icon" />
-              <img src={plantingIcon} alt="yoga icon" />
-              <img src={cookingIcon} alt="yoga icon" />
-            </div>
           </article>
         </div>
       </div>

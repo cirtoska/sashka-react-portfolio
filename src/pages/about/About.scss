@@ -36,3 +36,11 @@ min-height: 92vh;
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #about {
+    .grid-container {
+      margin: 0;
+    }
+  }
+}

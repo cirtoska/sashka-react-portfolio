@@ -1,7 +1,7 @@
 @import '../../App.scss';
 
 .portfolio-box {
-
+  box-shadow: $shadow;
   width: 100%;
   background-color: $light-clr;
   border-radius: 20px;

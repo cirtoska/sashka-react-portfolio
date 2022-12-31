@@ -121,3 +121,16 @@ a:hover {
     border: none;
   }
 }
+@media screen and (max-width: 600px){
+  
+  .modal-container {
+    margin: 1rem;
+  }
+  .project-info {
+    padding: 0;
+  }
+  .grid-item {
+    flex-wrap: wrap;
+    
+  }
+}
