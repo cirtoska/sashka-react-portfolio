@@ -24,7 +24,7 @@ const Contact = () => {
             don't hesitate to use the form.
           </h3>
           <section className="content">
-            {/* <article className="basic-contact">
+            <article className="basic-contact">
               <div className="contactItem">
                 <img src={mobile} alt="mobile icon" />
                 <a href="tel:+38978294523">+38978294523</a>
@@ -37,7 +37,7 @@ const Contact = () => {
                 <img src={location} alt="location icon" />
                 <span>Prilep, Macedonia</span>
               </div>
-            </article> */}
+            </article>
             <article className="contact-form">
               <form
                 action="https://formsubmit.co/598dde396fbcf6fc09490ab6f858613c"
