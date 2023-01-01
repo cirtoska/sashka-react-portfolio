@@ -11,7 +11,7 @@ import dotSeparator from "../../assets/images/icons/dot.png";
 
 const Resume = () => {
   return (
-    <section className="resume">
+    <section className="resume animate__animated  animate__fadeInBottomLeft animate__delay-2s">
       <h2 className="title">Resume</h2>
       <div className="grid-2">
         <div className="sec-experience">

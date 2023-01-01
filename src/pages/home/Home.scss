@@ -35,9 +35,16 @@
     font-family: 'Excon-Bold';
     font-size: 6rem;
     padding: 0 2rem;
-    width: 50%;
+    width: 100%;
     letter-spacing: 0.25rem;
     line-height: 1.2;
+    background: linear-gradient(to right, hsl(178, 100%, 50%) 0%, hsl(228, 45%, 44%) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    // background: linear-gradient(to right, #f32170,
+    //                 #ff6b08, #cf23cf, #eedd44);
+    //         -webkit-text-fill-color: transparent;
+    //         -webkit-background-clip: text;
     }
 
   .title-role {

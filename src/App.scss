@@ -57,7 +57,7 @@ $resume-clr: #46C7BF;
 $border-top: 1px solid hsl(215, 32%, 27%);
 
 $shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-$shadow-2d: -5px 5px 0px 0px rgba(0,0,0,1);
+$shadow-2d: -5px 5px 0px 0px $purple-1-clr;
 
 
 
@@ -65,7 +65,8 @@ body {
   max-width: 100%;
   min-height: 100vh;
   font-family: 'Raleway', sans-serif;
-  background-color: #daeaf6;
+  // background-color: #daeaf6;
+  background: linear-gradient(60deg, $resume-clr 0%, $purple-1-clr 100%);
 }
 
 

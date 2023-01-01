@@ -3,7 +3,7 @@ import "./AboutCard.scss";
 
 const AboutCard = () => {
   return (
-    <section className="about-box">
+    <section className="about-box animate__animated animate__fadeInRight animate__delay-1s">
       <h2 className="title">About Me</h2>
       <div className="text">
         <p>

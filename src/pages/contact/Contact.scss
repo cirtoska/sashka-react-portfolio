@@ -164,15 +164,18 @@
           .btn-submit {
             background-color: $light-clr;
             width: 150px;
-            padding: 0.7rem;
+            padding: 1rem;
             margin-left: 1rem;
             cursor: pointer;
+            border: 1px solid $purple-1-clr;
             font-size: 1rem;
             border-radius: 1rem;
             transition: 0.3s ease-in-out;
+            box-shadow: $shadow-2d;
 
             &:hover {
-              box-shadow: $shadow-2d;
+              box-shadow: none;
+              transform: translate(-5px, 5px);
             }
           }
         }

@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <header>
+    <header className="animate__animated animate__fadeInRight">
       <nav>
         <ul className={isNavExpanded ? "nav-links expanded" : "nav-links"}>
           <li>

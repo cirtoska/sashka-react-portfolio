@@ -44,17 +44,15 @@ header {
         margin: 2rem;
         padding: 15px 30px;
         font-size: 1.2rem;
-        border: 1px solid black;
+        border: 1px solid $purple-1-clr;
         border-radius: 1rem;
         cursor: pointer;
         transition: 0.3s ease-in-out;
+        box-shadow: $shadow-2d;
         &:hover {
-          // transform: scale(1.05);
-          background-color: $purple-clr;
-          color: $light-clr;
-          // transition: all 0.5s ease;  
-          
-            box-shadow: $shadow-2d;
+   
+          box-shadow: none;
+          transform: translate(-5px, 5px);
           
       }
     }
@@ -72,8 +70,10 @@ header {
       }
   
       .active {
-        background-color: $purple-clr;
-        color: $light-clr;
+        // background-color: $purple-clr;
+        // color: $light-clr;
+        box-shadow: none;
+        transform: translate(-5px, 5px);
       }
     }
   }
