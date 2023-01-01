@@ -17,7 +17,7 @@ const Projects = ({ listProjects }) => {
         {listProjects.map((project) => {
           const { id, cover, title } = project;
           return (
-            <div key={id} className="animate__animated  animate__fadeIn">
+            <div key={id}>
               <div className={`project-card card-${id}`}>
                 <div className="img-zoom">
                   <img
