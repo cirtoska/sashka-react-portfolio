@@ -53,3 +53,9 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .about-box {
+    box-shadow: none;
+  }
+}

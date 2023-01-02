@@ -80,6 +80,7 @@
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          
           // align-items: center;
           .field-holder {
             position: relative;
@@ -200,6 +201,23 @@
       h3 {
         font-size: 1.2rem;
         padding: 2rem 0;
+      }
+      .content {
+        .basic-contact {
+          .contactItem {
+            margin: 0 auto 2rem;
+            width: 90%;
+          }
+        }
+        .contact-form {
+          margin: 1rem;
+          width: auto;
+          form {
+            .btn-submit {
+              margin: auto;
+            }
+          }
+        }
       }
     }
   }

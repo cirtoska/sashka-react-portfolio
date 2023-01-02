@@ -2,8 +2,8 @@
 
 #about {
   position: relative;
-min-height: 92vh;
-// margin: 2rem;
+  min-height: 92vh;
+
   .grid-container {
   @include grid-container;
   }
@@ -17,7 +17,7 @@ min-height: 92vh;
       margin: 2rem;
       #profile-card {
         position: static;
-        margin: 6.5rem auto;
+        margin: 6.5rem auto 4rem auto;
 
         .profile-img {
           top: -100px;
@@ -37,10 +37,13 @@ min-height: 92vh;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   #about {
     .grid-container {
       margin: 0;
+      #profile-card {
+        margin: 6.5rem auto 0 auto;
+      }
     }
   }
 }

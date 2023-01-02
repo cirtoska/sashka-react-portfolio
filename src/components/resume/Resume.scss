@@ -145,6 +145,7 @@
           justify-content: space-between;
           flex-wrap: wrap;
           row-gap: 10px;
+          padding: 0 1rem;
           span {
             border-radius: 10px;
             background-color: $resume-clr;
@@ -188,7 +189,7 @@
       .sec-experience {
       
         .resume-item {
-          border: #DEF5F3 2px solid;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
           padding: 1rem;
           border-radius: 1rem;
           .resume-subtitle {
@@ -218,6 +219,26 @@
           margin-bottom: 2rem;
           .hobbies-grid {
             flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .resume {
+    
+    .grid-2 {
+
+      .sec-knowledge {
+
+        .knowledge-item {
+          
+          .knowledge-tag {
+            span {
+              font-weight: 400;
+              font-size: 0.9rem;
+            }
           }
         }
       }

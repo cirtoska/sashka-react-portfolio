@@ -60,7 +60,7 @@ const Modal = ({
             </div>
             <div className="grid-item">
               <FaFolderOpen className="modal-icon" />
-              Project: {categories}
+              <span> Project: {categories}</span>
             </div>
             <div className="grid-item">
               <FaCode className="modal-icon" />

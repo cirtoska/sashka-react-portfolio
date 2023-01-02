@@ -117,3 +117,19 @@ box-shadow: $shadow;
 
 }
 
+@media screen and (max-width: 500px) {
+  #profile-card {
+    box-shadow: none;
+    .profile-card {
+      margin: 1rem;
+      .contact-info {
+        .contact-item {
+          flex-direction: column;
+          a {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

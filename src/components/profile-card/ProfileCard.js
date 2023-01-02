@@ -16,10 +16,7 @@ import download from "../../assets/images/icons/download.png";
 
 const ProfileCard = () => {
   return (
-    <section
-      id="profile-card"
-      className="animate__animated animate__fadeInLeft animate__delay-1s"
-    >
+    <section id="profile-card">
       <article className="profile-card">
         <div className="profile-img">
           <img src={profileImg} alt="Aleksandra Chirtoska" />
