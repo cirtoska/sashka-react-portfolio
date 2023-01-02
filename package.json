@@ -1,5 +1,6 @@
 {
   "name": "sashka-react-portfolio",
+  "homepage": "https://aleksandrachirtoska.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
