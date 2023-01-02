@@ -143,34 +143,6 @@ export const data = [
     responsive: true,
   },
   {
-    id: 11,
-    cover:
-      "https://aleksandrachirtoska.com/img/projects/freecodecamp-survey-form-full.webp",
-    title: "Survey Form",
-    categories: "HTML/CSS",
-    liveUrl: "https://cirtoska.github.io/Buil-a-survey-form/",
-    githubUrl: "https://github.com/cirtoska/Buil-a-survey-form",
-    technology: ["HTML", "CSS3", "UX/UI"],
-    date: "Jul 2022",
-    description:
-      "This was the first Certification Project from freeCodeCamp Responsive Web Design. The task was to build a survey form.",
-    responsive: true,
-  },
-  {
-    id: 12,
-    cover:
-      "https://aleksandrachirtoska.com/img/projects/freecodecamp-documentation-page.webp",
-    title: "Documentation Page",
-    categories: "HTML/CSS",
-    liveUrl: "https://cirtoska.github.io/Technical-Documentation-Page/",
-    githubUrl: "https://github.com/cirtoska/Technical-Documentation-Page",
-    technology: ["HTML", "CSS3"],
-    date: "Jun 2022",
-    description:
-      "This was the second Certification Project from freeCodeCamp Responsive Web Design. The task was to build a Documentation Page.",
-    responsive: true,
-  },
-  {
     id: 13,
     cover:
       "https://aleksandrachirtoska.com/img/projects/freecodecamp-tribute-page.webp",

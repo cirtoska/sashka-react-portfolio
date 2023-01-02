@@ -1,7 +1,8 @@
 @import '../../App.scss';
 
 .btn-container {
-  margin-top: 2rem;
+  margin: 2rem;
+  text-align: center;
 
   .filter-btn {
     border: none;
@@ -13,7 +14,22 @@
     text-transform: uppercase;
 
     &:hover {
-      text-decoration: underline;
+      color: $purple-1-clr;
     }
+    &:active {
+      color: $purple-1-clr;
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 500px) {
+  .btn-container {
+    
+    .filter-btn {
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
+   
   }
 }
