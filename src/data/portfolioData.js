@@ -143,7 +143,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 13,
+    id: 11,
     cover:
       "https://aleksandrachirtoska.com/img/projects/freecodecamp-tribute-page.webp",
     title: "Tribute Page",
@@ -157,7 +157,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 14,
+    id: 12,
     cover:
       "https://aleksandrachirtoska.com/img/projects/freecodecamp-product-landing-page.webp",
     title: "Product Landing Page",
@@ -171,7 +171,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 15,
+    id: 13,
     cover:
       "https://aleksandrachirtoska.com/img/projects/freecodecamp-personal-portfolio.webp",
     title: "freeCodeCamp Personal Portfolio",
@@ -185,7 +185,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 16,
+    id: 14,
     cover:
       "https://aleksandrachirtoska.com/img/projects/modern-registration-form.webp",
     title: "Modern Registration Form",
@@ -199,7 +199,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 17,
+    id: 15,
     cover:
       "https://aleksandrachirtoska.com/img/projects/visual-studio-chalenge.webp",
     title: "IWEC Academy Visual Studio Project",
@@ -213,7 +213,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 18,
+    id: 16,
     cover: "https://aleksandrachirtoska.com/img/projects/tnw-exercise.webp",
     title: "IWEC Academy TheNextWeb Project",
     categories: "HTML/CSS",
@@ -235,7 +235,7 @@ export const data = [
   //   githubUrl: "https://github.com/cirtoska/Country-Cards",
   // },
   {
-    id: 20,
+    id: 17,
     cover:
       "https://aleksandrachirtoska.com/img/projects/frontend-mentor-loopstudios.webp",
     title: "Loopstudios landing page",
@@ -252,7 +252,7 @@ export const data = [
   },
 
   {
-    id: 22,
+    id: 18,
     cover:
       "https://aleksandrachirtoska.com/img/projects/frontend-mentor-chalenge-card.webp",
     title: "NFT preview card component",
@@ -266,7 +266,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 23,
+    id: 19,
     cover:
       "https://aleksandrachirtoska.com/img/projects/frontend-mentor-chalenge-grid-chalenge.webp",
     title: "Testimonials grid section",
@@ -280,7 +280,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 24,
+    id: 20,
     cover:
       "https://aleksandrachirtoska.com/img/projects/frontend-mentor-chalenge-2.webp",
     title: "Huddle landing page with curved sections",
@@ -296,7 +296,7 @@ export const data = [
     responsive: true,
   },
   {
-    id: 25,
+    id: 21,
     cover:
       "https://aleksandrachirtoska.com/img/projects/frontend-mentor-chalenge3.webp",
     title: "Fylo landing page with two column layout",
