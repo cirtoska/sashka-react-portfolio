@@ -61,15 +61,15 @@ const Resume = () => {
             <div className="content">
               <div className="left-side">
                 <div className="edu-info">
+                  <p>Jan 2023</p>
+                  <span>Codecademy</span>
+                </div>
+                <div className="edu-info">
                   <p>Oct 2022</p>
                   <span>Codecademy</span>
                 </div>
                 <div className="edu-info">
                   <p>Sep 2022</p>
-                  <span>freeCodeCamp</span>
-                </div>
-                <div className="edu-info">
-                  <p>Jul 2022</p>
                   <span>freeCodeCamp</span>
                 </div>
               </div>
@@ -85,9 +85,30 @@ const Resume = () => {
                 </span>
               </div>
               <div className="right-side">
-                <p>Learn React Course</p>
-                <p>Front End Development Libraries</p>
-                <p>Responsive Web Design</p>
+                <p>
+                  <a
+                    href="https://www.codecademy.com/profiles/designPro12910/certificates/5f85dd867b67b60014ac9ea3"
+                    target="_blank"
+                  >
+                    Front-End Engineer Career Path
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.codecademy.com/profiles/designPro12910/certificates/af00e5032d0a68cc84879983f5d8333b"
+                    target="_blank"
+                  >
+                    Learn React Course
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.freecodecamp.org/certification/fcc9ee9d237-83ee-4388-9968-a4953127c589/front-end-development-libraries"
+                    target="_blank"
+                  >
+                    Front End Development Libraries
+                  </a>
+                </p>
               </div>
             </div>
           </article>

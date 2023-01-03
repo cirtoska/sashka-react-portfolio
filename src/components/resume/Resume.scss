@@ -51,11 +51,11 @@
             grid-template-rows: repeat(3, 1fr);
             gap: 2rem;
             text-align: right;
-            span {
-              font-size: 0.8rem;
-              color: gray;
-              
-            }
+              span {
+                font-size: 0.8rem;
+                color: gray;
+              }
+            
           }
 
           .middle {
@@ -79,6 +79,25 @@
             justify-content: space-between;
             grid-template-rows: repeat(3, 1fr);
             gap: 2rem;
+           
+              p {
+                a{
+                  font-size: 1em;
+                  font-weight: 600;
+                  color: black;
+                  text-decoration: underline;
+                  transition: 0.3 ease-in-out;;
+
+                  &:hover {
+                    text-decoration: none;
+                  }
+                  &:active {
+                    color: $resume-clr;
+                  }
+                }
+              }
+             
+            
           }
         }
       }
