@@ -1,9 +1,22 @@
 export const data = [
   {
+    id: 25,
+    cover: "https://aleksandrachirtoska.com/img/projects/best-todo-app.webp",
+    title: "The Best Task Manager App",
+    categories: "React",
+    liveUrl: "https://grocery-list-zeta.vercel.app/",
+    githubUrl: "https://github.com/cirtoska/best-todo-app",
+    technology: ["React", "CSS3", "HTML5"],
+    date: "Feb 2023",
+    description:
+      "The app have tasks listed by Name, Date and Status. Every task can be edited or delited. The list can be sorted by Name and Date and can be filtered by Status (Active, Completed or All)",
+    responsive: true,
+  },
+  {
     id: 1,
     cover:
       "https://aleksandrachirtoska.com/img/projects/iwec-final-react-project.webp",
-    title: "IWEC Frontend Academy Final React Project",
+    title: "IWEC Academy Final React Project",
     categories: "React",
     liveUrl: "https://react-api-web-app.vercel.app/",
     githubUrl: "https://github.com/cirtoska/react-api-web-app",
