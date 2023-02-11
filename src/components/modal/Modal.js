@@ -68,7 +68,7 @@ const Modal = ({
             </div>
             <div className="grid-item">
               <FaMobileAlt className="modal-icon" /> Responsive:{" "}
-              {{ responsive } ? (
+              {responsive ? (
                 <FaCheckCircle className="modal-icon" />
               ) : (
                 <FaRegTimesCircle className="modal-icon" />
