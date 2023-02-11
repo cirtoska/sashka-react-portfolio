@@ -1,5 +1,19 @@
 export const data = [
   {
+    id: 26,
+    cover:
+      "https://aleksandrachirtoska.com/img/projects/the-movie-db-codecademy-project.webp",
+    title: "The Movie DB Remake App",
+    categories: "React",
+    liveUrl: "https://movie-database-app-sepia.vercel.app/",
+    githubUrl: "https://github.com/cirtoska/movie-database-app",
+    technology: ["React", "TailWindCSS", "Redux", "API"],
+    date: "Feb 2023",
+    description:
+      "My Final Project from CodeCademy - FrontEnd Engineer Path --- WORK STILL IN PROGRESS For this project, I will build an application using everything I’ve learned in this course. I choose to build a Movie App using the Movie Database API.",
+    responsive: false,
+  },
+  {
     id: 25,
     cover: "https://aleksandrachirtoska.com/img/projects/best-todo-app.webp",
     title: "The Best Task Manager App",
