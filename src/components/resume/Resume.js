@@ -120,7 +120,7 @@ const Resume = () => {
             <div className="content">
               <div className="left-side">
                 <div className="edu-info">
-                  <p>Jan 2009 - Present</p>
+                  <p>Jan 2009 - 2013</p>
                   <span>Self-employed</span>
                 </div>
                 <div className="edu-info">
