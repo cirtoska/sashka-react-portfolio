@@ -123,14 +123,22 @@ const Resume = () => {
                   <p>Jan 2009 - Present</p>
                   <span>Self-employed</span>
                 </div>
+                <div className="edu-info">
+                  <p>Feb 2013 - Present</p>
+                  <span>Division Marketing</span>
+                </div>
               </div>
               <div className="middle">
                 <span className="dot-separator">
                   <img src={dotSeparator} alt="separator" />
                 </span>
+                <span className="dot-separator">
+                  <img src={dotSeparator} alt="separator" />
+                </span>
               </div>
               <div className="right-side">
-                <p>Web Administrator</p>
+                <p>Web Developer/Administrator</p>
+                <p>Web Developer</p>
               </div>
             </div>
           </article>
@@ -205,6 +213,18 @@ const Resume = () => {
             <h3>Coding Skills</h3>
             <div className="skill-slider">
               <div className="slider">
+                <p>Wordpress</p>
+                <input
+                  className="slide"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value="90"
+                  readOnly
+                />
+              </div>
+              <div className="slider">
                 <p>HTML/CSS</p>
                 <input
                   className="slide"
@@ -217,7 +237,7 @@ const Resume = () => {
                 />
               </div>
               <div className="slider">
-                <p>JAvaScript</p>
+                <p>JavaScript</p>
                 <input
                   className="slide"
                   type="range"

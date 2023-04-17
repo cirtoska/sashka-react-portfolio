@@ -1,5 +1,18 @@
 export const data = [
   {
+    id: 27,
+    cover:
+      "https://aleksandrachirtoska.com/img/projects/aplustrucksales-2023.webp",
+    title: "A Plus Truck Sales Website",
+    categories: "Wordpress",
+    liveUrl: "https://aplustrucksales.com/",
+    technology: ["Wordpress", "CSS3", "Woocommerce"],
+    date: "Mar 2023",
+    description:
+      "A Website built for a client in Wordpress for Truck Sales Services, using Woocommerce",
+    responsive: true,
+  },
+  {
     id: 26,
     cover:
       "https://aleksandrachirtoska.com/img/projects/the-movie-db-codecademy-project.webp",
