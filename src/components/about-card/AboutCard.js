@@ -7,16 +7,13 @@ const AboutCard = () => {
       <h2 className="title">About Me</h2>
       <div className="text">
         <p>
-          Responsible and meticulous Web Administrator & Designer with a 13+
-          years working experience in the internet industry. After completing an
-          extensive web development program, I found my new passion for coding.
-          Now I'm looking forward to start up my new career as a Frontend
-          Developer.
+          Responsible and meticulous Front End Developer with a 14 years working
+          experience in the internet industry.
         </p>
         <p>
           Technically minded person, independent employee, problem solver with
-          an understanding of HTML, CSS, JavaScript, React and other web
-          technologies. With ability to learn new skills quickly.
+          an understanding of Wordpress, HTML, CSS, JavaScript, React and other
+          web technologies. With ability to learn new skills quickly.
         </p>
         <p>A family person, loving wife and mother of two outstanding girls.</p>
         <p>

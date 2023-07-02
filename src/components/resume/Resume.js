@@ -137,7 +137,7 @@ const Resume = () => {
                 </span>
               </div>
               <div className="right-side">
-                <p>Web Developer/Administrator</p>
+                <p>Web Developer</p>
                 <p>Web Developer</p>
               </div>
             </div>
