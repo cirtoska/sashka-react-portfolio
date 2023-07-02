@@ -5,7 +5,7 @@ import "./ProfileCard.scss";
 import linkedin from "../../assets/images/icons/linkedin-color.png";
 import github from "../../assets/images/icons/github-dark.png";
 import facebook from "../../assets/images/icons/facebook-color.png";
-import profileImg from "../../assets/images/prifile-img.png";
+import profileImg from "../../assets/images/profile-img.png";
 
 // Contact Icons
 import mobile from "../../assets/images/icons/mobile.png";

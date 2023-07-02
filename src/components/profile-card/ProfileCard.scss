@@ -19,11 +19,13 @@ box-shadow: $shadow;
       margin: 0 auto;
       text-align: center;
       position: absolute;
-      top: -100px;
+      top: -80px;
       left: -8px;
+      
   
       img {
         width: 35%;
+        border-radius: 1rem;
       }
     }
 
