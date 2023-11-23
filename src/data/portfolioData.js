@@ -14,7 +14,7 @@ export const data = [
   // },
   {
     id: 30,
-    cover: "https://aleksandrachirtoska.com/img/projects/tastify-2023.webp",
+    cover: "https://aleksandrachirtoska.com/img/projects/tastify-mk-2023.webp",
     title: "Tastify",
     categories: "Wordpress",
     liveUrl: "https://tastify.mk/",
