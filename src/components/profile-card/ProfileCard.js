@@ -5,6 +5,7 @@ import "./ProfileCard.scss";
 import linkedin from "../../assets/images/icons/linkedin-color.png";
 import github from "../../assets/images/icons/github-dark.png";
 import facebook from "../../assets/images/icons/facebook-color.png";
+import uxcel from "../../assets/images/icons/uxcel.webp";
 import profileImg from "../../assets/images/profile-img.png";
 
 // Contact Icons
@@ -28,10 +29,13 @@ const ProfileCard = () => {
             <img src={linkedin} alt="LinkedIn icon" />
           </a>
           <a href="https://github.com/cirtoska">
-            <img src={github} alt="LinkedIn icon" />
+            <img src={github} alt="Github icon" />
           </a>
           <a href="https://www.facebook.com/saska.saska">
-            <img src={facebook} alt="LinkedIn icon" />
+            <img src={facebook} alt="Facebook icon" />
+          </a>
+          <a href="https://app.uxcel.com/ux/cirtoska">
+            <img src={uxcel} alt="Uxcel icon" />
           </a>
         </div>
         <div className="contact-info">
