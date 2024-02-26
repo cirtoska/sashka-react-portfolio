@@ -1,6 +1,19 @@
 export const data = [
   {
-    id: 33,
+    id: 28,
+    cover: "https://aleksandrachirtoska.com/img/projects/royalkidshouse.webp",
+    title: "Royal Kids House",
+    categories: "Wordpress",
+    liveUrl: "https://www.royalkidshouse.com/",
+    // githubUrl: "",
+    technology: ["Wordpress", "CSS3", "Elementor"],
+    date: "Feb 2024",
+    description:
+      "This is my favourite project. It's for a local day care private school Royal Kods House. The website was developed with Skole Wordpress Theme and Elementor page builder",
+    responsive: true,
+  },
+  {
+    id: 27,
     cover:
       "https://aleksandrachirtoska.com/img/projects/freight-solutions-brokerage.webp",
     title: "Freight Solutions Brokerage",
