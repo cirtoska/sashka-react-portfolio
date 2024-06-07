@@ -1,5 +1,19 @@
 export const data = [
   {
+    id: 29,
+    cover:
+      "https://aleksandrachirtoska.com/img/projects/Izvidnici-Prilep-Feniks.webp",
+    title: "Scouts Prilep",
+    categories: "Wordpress",
+    liveUrl: "https://www.izvidniciprilep.org/",
+    // githubUrl: "",
+    technology: ["Wordpress", "CSS3", "Elementor"],
+    date: "May 2024",
+    description:
+      "This is project is my contribution to a local scout organization. The website was developed with Vedhak Wordpress Theme and Elementor page builder",
+    responsive: true,
+  },
+  {
     id: 28,
     cover: "https://aleksandrachirtoska.com/img/projects/royalkidshouse.webp",
     title: "Royal Kids House",
